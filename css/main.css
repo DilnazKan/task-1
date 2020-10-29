@@ -1,0 +1,136 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    top: 25px;
+    width: 100vw;
+}
+
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1600px;
+    justify-content: center;
+}
+
+ .menu {
+     width: 583px;
+     display: flex;
+ }
+
+ .list {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+ }
+
+ .list_item {
+     display: flex;
+     align-items: center;
+ }
+  
+ .list_link {
+     color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+ }
+
+ .list_link_active {
+     border-bottom: solid 3px #ffffff;
+ }
+
+.list_link_disabled {
+    opacity: 0.8;
+}
+
+.main { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg.main {
+    width: 1600px;
+    align-self: center;
+}
+
+.content {
+    top: 230px;
+    height: 100vw;
+    position: absolute;
+    display: flex;
+    align-self: center;
+}
+
+.content_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_title {
+    color: #ffffff;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 75px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 4.5px;
+text-transform: uppercase;
+}
+
+.content_paragraph {
+padding-top: 20px;
+padding-bottom: 30px;
+width: 504px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 140%;
+/* or 25px */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.button {
+    width: 186px;
+    height: 46px;
+    border: none;
+    background-color:  #00AFDB;
+}
+.button_text {
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 140%;
+    text-align: center;
+}
+
+.socials.youtube{
+background: #FFFFFF;
+position: absolute;
+width: 10px;
+height: 7.8px;
+left: 155px;
+top: 6px;
+}
