@@ -4,12 +4,13 @@
 }
 
 body {
-    background-color: black;
+    background-color: white;
 }
 
 .header {
     top: 25px;
     width: 100vw;
+    background: black;
 }
 
 .wrapper {
@@ -35,8 +36,8 @@ body {
      align-items: center;
  }
   
- .list_link {
-     color: #ffffff;
+ .list_link { 
+    color: #ffffff;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -126,11 +127,469 @@ color: #FFFFFF;
     text-align: center;
 }
 
-.socials.youtube{
+.elem {
+    display: flex;
+    padding-top: 160px;
+}
+
+
+/* 2 list*/
+
+.secb {
 background: #FFFFFF;
-position: absolute;
-width: 10px;
-height: 7.8px;
-left: 155px;
-top: 6px;
+display: flex;
+align-items: center;
+padding-left: 269px;
+padding-top: 295px;
+  
+}
+
+.text_title {
+height: 57px;
+width: 367px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 1px;
+text-align: left;
+margin-bottom: 40px;
+
+}
+
+.text_paragraph {
+height: 80px;
+width: 407px;
+left: 0px;
+top: 77px;
+border-radius: nullpx;
+    
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0px;
+text-align: left;
+color: #4E4E4E;
+
+margin-bottom: 20px;
+
+
+}
+
+.image_con {
+width: 407px;
+height: 582px;
+padding-left: 924px;
+padding-top: 120px;
+background: #FFFFFF;
+}
+
+.button {
+height: 46px;
+width: 184px;
+left: 0px;
+top: 187px;
+border-radius: 0px;
+background-color:  #00AFDB;
+
+}
+
+.button_text {
+font-family: Roboto;
+font-weight: 700px;
+font-size: 14px;
+text-transform: uppercase;
+line-height: 140%;
+text-align: center;
+}
+
+
+/* 3 list*/
+
+.team {
+    width: 1600px;
+    height: 504px;
+    left: 0px;
+    top: 0px;
+}
+
+.team_title {
+ width: 160px;
+height: 20px;
+left: calc(50% - 160px/2);
+top: 65px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 2.4px;
+text-transform: uppercase;
+
+color: #373737;
+}
+
+.team_paragraph {
+width: 298px;
+height: 80px;
+left: calc(50% - 298px/2);
+top: 95px;
+
+/* body-14-reg */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #4E4E4E;
+
+}
+
+.user {
+    width: 45px;
+height: 45px;
+left: 0px;
+top: 0px;
+
+background: url(I1-276;1-23.png), #C4C4C4;
+}
+
+
+/*4 лист._.*/
+
+.list_f{
+
+    height: 850px;
+
+    display: flex;                           /*делает в одну строку*/
+    align-items: center;                     /*контент центрируется по центральной базовой линии*/
+    margin-top: 0px;                       /*отступ сверху*/
+}
+
+.wrapper {
+  display: flex;
+}
+
+.list_f .item_data_f{
+    padding-left: 139px;                     /*отступ от картинки тексту 139пикселей*/
+
+    width: 407px;                            /*задаем размеры рамки(для текста)*/
+    height: 184px;
+}
+
+
+.list_f .item_data_f article h4 {             /*работа с заголовком текста*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+
+    margin-bottom: 20px;                      /*отступ после заголовка текста 20пикселей*/
+    padding-top: 200px;
+}
+
+
+.list_f .item_data_f article p{              /*работа с основным текстом*/
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4e4e4e;             
+    margin-bottom: 30px;                      /*отступ после основного текста*/
+}
+
+.button-text {
+  color: #FFFFFF;
+}  
+/*5 list*/
+.srcfif {
+    width: 1600px;
+    height: 524px;
+    display: flex;
+  }
+
+  .wrapper {
+    display: flex;
+  }
+  
+  .fifth_screen {
+    width: 406px;
+    height: 104px;
+    padding: 200px 597px 220px 597px;
+  }
+  
+  .fifth_screen h2 {
+    position: absolute;
+    width: 380px;
+    height: 28px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #FFFFFF;
+    padding-left: 14px;
+  }
+  
+  .email {
+    margin-top: 58px;
+    position: absolute;
+    width: 336px;
+    height: 44px;
+  
+    background: #FFFFFF;
+    border-radius: 0px;
+    border: none;
+  }
+  
+  .input button {
+    width: 66px;
+    height: 46px;
+    margin: 58px 0 0 340px;
+    border: none;
+    background-color: #00AFDB;
+  }
+  .input button img {
+    padding-top: 4px;
+    padding-left: 1px;
+  }
+  
+  ::placeholder {
+    position: absolute;
+    width: 39px;
+    height: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-end;
+    color: #373737;
+    padding-left: 22px;
+    opacity: 0.5; }
+  
+  .sixth_screen {
+    width: 1600px;
+    height: 464px;
+    background: #F5F6F7;
+    position: absolute;
+  }
+  
+  .sixth_screen_content {
+    width: 480px;
+    height: 164px;
+    margin: 120px 560px 180px;
+    text-align: center;
+  }
+  
+  
+  .sixth_screen_content h2 {
+    height: 28px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 115px;
+    color: #373737;
+  }
+  
+  .sixth_screen_content p {
+    width: 480px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4E4E4E;
+  }
+  
+  .apple-store {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  
+    position: absolute;
+    width: 186px;
+    height: 46px;
+    left: 599px;
+    top: 238px;
+    border: none;
+    background: #00AFDB;
+  }
+  
+  .apple-store div {
+    position: absolute;
+    width: 127px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+  
+    border-radius: 0px;
+  
+    /* Inside Auto Layout */
+  
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 0px;
+  }
+  
+  .apple-store span {
+    position: absolute;
+    width: 91px;
+    height: 16px;
+    left: calc(50% - 91px/2);
+    top: calc(50% - 16px/2);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-transform: uppercase;
+  
+    color: #FFFFFF;
+  }
+  
+  .apple-store img {
+    position: absolute;
+    width: 59px;
+    height: 46px;
+    left: 127px;
+    top: 0px;
+  
+    background: #009CC2;
+    border-radius: 0px;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 0px;
+  }
+  
+  .apple-store:hover {
+    background: #009CC2;
+  }
+  
+  .google-store {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  
+    position: absolute;
+    width: 186px;
+    height: 46px;
+    left: 815px;
+    top: 238px;
+    background: #00AFDB;
+    border: none;
+  }
+  
+  .google-store div {
+    position: absolute;
+    width: 127px;
+    height: 46px;
+  
+    border-radius: 0px;
+    order: 0;
+    align-self: center;
+    margin: 0px 0px;
+  }
+  
+  .google-store span {
+    position: absolute;
+    height: 16px;
+    left: calc(50% - 94px/2);
+    top: calc(50% - 16px/2);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-transform: uppercase;
+  
+    color: #FFFFFF;
+  }
+  
+  .google-store img {
+    position: absolute;
+    width: 59px;
+    height: 46px;
+    left: 127px;
+    top: 0px;
+  
+    background: #009CC2;
+    border-radius: 0px;
+  
+    /* Inside Auto Layout */
+  
+  
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 0px;
+  }
+  
+  .google-store:hover {
+    background: #009CC2;
+  }
+  
+  button:hover {
+    background-color: #009CC2;
+  }
+
+
+  /*Rectangle7*/
+
+  .rectangle {
+    width: 1600px;
+height: 185px;
+left: 0px;
+top: 0px;
+
+background: #000000;
+  }
+  
+.style_rc {
+  width: 44px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
 }
